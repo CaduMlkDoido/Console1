@@ -20,7 +20,8 @@ namespace console1
 
                 Console.WriteLine("Agora digite sua senha: ");
                 senha = Console.ReadLine();
-                
+
+                Console.WriteLine("Digite novamente"); 
             }while (usuario.logar(login, senha));
 
             /*
